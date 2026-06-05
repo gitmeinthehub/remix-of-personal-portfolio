@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Linkedin, ArrowUpRight, Sparkles, Rocket, Users, Target, Brain, Languages as LangIcon, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import portraitAsset from '@/assets/arjun-hero.jpg.asset.json';
+import portraitAsset from '@/assets/arjun-portrait-v2.jpg.asset.json';
 import workshop from '@/assets/arjun-workshop.jpeg';
 const portrait = portraitAsset.url;
 
