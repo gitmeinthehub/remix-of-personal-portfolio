@@ -160,7 +160,7 @@ export default function Index() {
                 className="h-12 px-6 rounded-full bg-[#ff7849] hover:bg-[#ff7849]/90 text-black font-medium"
               >
                 <a href={`mailto:${EMAIL}`}>
-                  Email me {EMAIL} <ArrowUpRight className="ml-1 size-4" />
+                  Email me <ArrowUpRight className="ml-1 size-4" />
                 </a>
               </Button>
               <Button
