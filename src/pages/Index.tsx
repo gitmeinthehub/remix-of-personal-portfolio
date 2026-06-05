@@ -1,8 +1,9 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Linkedin, ArrowUpRight, Sparkles, Rocket, Users, Target, Brain, Languages as LangIcon, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import portrait from '@/assets/arjun-portrait.jpeg';
+import portraitAsset from '@/assets/arjun-hero.jpg.asset.json';
 import workshop from '@/assets/arjun-workshop.jpeg';
+const portrait = portraitAsset.url;
 
 const EMAIL = 'arjun.prakash.tech@gmail.com';
 const PHONE = '+49 1575 241 5952';
