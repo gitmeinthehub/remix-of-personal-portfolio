@@ -8,7 +8,7 @@ const portrait = portraitAsset.url;
 const EMAIL = 'arjun.prakash.tech@gmail.com';
 const PHONE = '+49 1575 241 5952';
 const LOCATION = 'Ingolstadt, Germany';
-const LINKEDIN = 'https://www.linkedin.com/';
+const LINKEDIN = 'https://www.linkedin.com/in/22arjun/';
 
 const pillars = [
   {
@@ -160,7 +160,7 @@ export default function Index() {
                 className="h-12 px-6 rounded-full bg-[#ff7849] hover:bg-[#ff7849]/90 text-black font-medium"
               >
                 <a href={`mailto:${EMAIL}`}>
-                  Let’s build something <ArrowUpRight className="ml-1 size-4" />
+                  Email me {EMAIL} <ArrowUpRight className="ml-1 size-4" />
                 </a>
               </Button>
               <Button
@@ -237,7 +237,7 @@ export default function Index() {
             </h2>
             <div className="space-y-5 text-lg text-white/75 leading-relaxed font-light">
               <p>
-                I’m a Master’s student in <span className="text-white">Global Foresight and Technology Management</span> at THI Ingolstadt, with a hands-on Mechatronics bachelor and two R&D internships behind me. I’ve sat in both rooms — the engineering test bench and the strategy boardroom — and I translate fluently between them.
+                I’m a Master’s student in <span className="text-white">Global Foresight and Technology Management</span> at THI Ingolstadt, with a hands-on Mechatronics bachelor and two R&D internships behind me. I’ve sat in both rooms, the engineering test bench and the strategy boardroom, and I translate fluently between them.
               </p>
               <p>
                 For product teams that means: I scope problems with foresight rigour, prototype with real engineering instincts, and present with conviction to stakeholders who don’t have time for fluff.
@@ -441,7 +441,7 @@ export default function Index() {
               Hiring a PM, building a founding team, or running an entrepreneurship sprint?
             </h2>
             <p className="mt-6 text-lg text-white/70 font-light max-w-2xl mx-auto">
-              I’d love to hear what you’re building. Quickest path is email — I usually reply within 24 hours.
+              I’d love to hear what you’re building. Quickest path is email. I usually reply within 24 hours.
             </p>
             <div className="mt-10 flex flex-wrap justify-center gap-4">
               <Button asChild className="h-12 px-8 rounded-full bg-[#ff7849] hover:bg-[#ff7849]/90 text-black font-medium">
